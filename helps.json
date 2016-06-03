@@ -1,0 +1,25 @@
+{
+    "convert": {
+        "*": [
+            "A tool for converting all sorts of quanitites.",
+            "You can run one of the following as an action: to|inverse|base|compare-<operator>",
+            "Usage is: `!con <QTY> <ACTION> [<QTY>]`",
+            "Example: `!convert 10 feet to meters`",
+            "Sub commands (!help convert kinds): kinds, units, aliases"
+        ],
+        "kinds": [
+            "Usage: !con kinds",
+            "Lists all the kinds of units."
+        ],
+        "units": [
+            "Usage: !con units <kind>",
+            "Lists all the units of a kind.",
+            "IE: A units of a force is a newton. There are more."
+        ],
+        "aliases": [
+            "Usage: !con aliases <unit>",
+            "Lists all the aliases of a unit.",
+            "IE: One alias of meter is 'm'."
+        ]
+    }
+}

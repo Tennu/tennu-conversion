@@ -1,0 +1,25 @@
+{
+  "name": "tennu-conversion",
+  "version": "1.0.0",
+  "description": "A plugin for the tennu IRC framework, allows the bot to perform unit conversions.",
+  "main": "plugin.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Tennu/tennu-aseen"
+  },
+  "scripts": {
+    "test": "mocha",
+    "postversion": "git push && git push --tags && npm publish"
+  },
+  "author": "Victorio Berra",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.4.0",
+    "create-error": "^0.3.1",
+    "js-quantities": "^1.6.1"
+  },
+  "devDependencies": {
+    "mocha": "^2.5.3",
+    "should": "^9.0.0"
+  }
+}
