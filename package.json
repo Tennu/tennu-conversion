@@ -5,7 +5,7 @@
   "main": "plugin.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Tennu/tennu-aseen"
+    "url": "https://github.com/Tennu/tennu-conversion"
   },
   "scripts": {
     "test": "mocha",
