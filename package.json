@@ -1,6 +1,6 @@
 {
   "name": "tennu-conversion",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A plugin for the tennu IRC framework, allows the bot to perform unit conversions.",
   "main": "plugin.js",
   "repository": {
